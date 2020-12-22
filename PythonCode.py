@@ -124,10 +124,7 @@ while(i<30):
         temp_input.extend(yhat[0].tolist())
         print(len(temp_input))
         lst_output.extend(yhat.tolist())
-        i=i+1
-        
-    
-
+        i=i+1   
 print(lst_output)
 day_new=np.arange(1,101)
 day_pred=np.arange(101,131)
